@@ -1,10 +1,10 @@
 {
 	"name": "my-project",
-	"source": "src/index.html",
+	"source": "index.html",
 	"browserslist": "> 0.5%, last 2 versions, not dead",
 	"scripts": {
-		"start": "parcel src/index.html",
-		"build": "parcel build src/index.html  --public-url ./ --no-source-maps --dist-dir prod"
+		"start": "parcel index.html",
+		"build": "parcel build index.html  --public-url ./ --no-source-maps --dist-dir prod"
 	},
 	"devDependencies": {
 		"parcel": "latest"
